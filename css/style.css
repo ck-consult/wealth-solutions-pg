@@ -132,6 +132,25 @@ ul {
   margin-right: auto;
 }
 
+/* Language Switcher */
+.lang-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0;
+}
+.lang-btn:hover {
+  color: var(--accent-green);
+}
+.lang-btn.active {
+  color: var(--accent-green);
+  font-weight: 700;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
